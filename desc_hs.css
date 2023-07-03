@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  body {
+    background-color: #ebd7c0;
+    color: #000;
+    font-size: 1rem;
+    line-height: 1.5;
+  } 
+ 
+div:not(.logo ) {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0 20px;
+    max-width: 75%;
+    margin: 1% auto;
+    text-align: start;
+    border: solid #ffffff 3px ;
+    border-radius: 7px 7px 7px 7px ;
+}
+.mainhead{
+  display: flex;
+  flex-direction: row;
+  align-items: center !important;
+  text-align: center;
+}
+.line{
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  text-align: right !important;
+}
+.head{
+  text-decoration: underline;
+}
+.focus {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+  }
+.head{
+  text-decoration: underline;
+}
+    
+.focus-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-color: #fff;
+  color: #000000;
+  padding: 0 20px;
+  max-width: 75%;
+  margin: 0 auto;
+  border-radius: 7px 7px 7px 7px ;
+}
+    
+  .focus-card img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+    
+  .focus-card h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+    
+  .focus-card p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+    
+  
+      
